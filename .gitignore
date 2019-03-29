@@ -281,3 +281,4 @@ bibisco/bin/com/bibisco/test/WebMessageManagerTest.class
 bibisco/app/logs
 bibisco_test.json
 bibisco/.vscode
+export/

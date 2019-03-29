@@ -1894,3 +1894,15 @@ the module (for instance, using `npm rebuild` or `npm install`).
     at m.$apply (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:151:355)
     at l (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:103:167)
     at t (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:108:228)
+2019-03-29 18:54:44:571 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 18:54:46:283 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-29 18:54:46:290 DEBUG bibisco.json db loaded
+2019-03-29 18:54:49:022 DEBUG storedLocale = [en-us]
+2019-03-29 18:54:49:026 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 18:54:49:026 INFO *** Bibisco version: 2.0.3-SE
+2019-03-29 18:54:49:027 INFO *** First access: false
+2019-03-29 18:54:49:027 INFO *** Actual user: Cornell
+2019-03-29 18:54:49:027 INFO *** Signers: cornell
+2019-03-29 18:54:49:027 INFO *** Locale: en-us
+2019-03-29 18:54:49:028 INFO *** OS: win32
+2019-03-29 18:54:49:029 INFO *** Projects directory: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_
