@@ -19,25 +19,34 @@ angular.module('bibiscoApp').service('LoreService', function(
     'use strict';
   
     return {
-      getLoreItem: function(id) {
-        return this.getCollection().get(id);
+      getDynamicView: function() {
+        return CollectionUtilService.getDynamicViewSortedByPosition(this.getCollection(), 'all_lore');
       },
-      getCollection: function() {
-        return ProjectDbConnectionService.getProjectDb().getCollection('lore');
-      },
-      getCollectionCount: function() {
-        return this.getCollection().count();
-      },
+
       getLore: function() {
         return this.getDynamicView().data();
       },
-      getDynamicView: function() {
-        return CollectionUtilService.getDynamicViewSortedByPosition(
-          this.getCollection(), 'all_lore');
+
+      getLoreItem: function(id) {
+        return this.getCollection().get(id);
       },
+
+      getCollection: function() {
+        return ProjectDbConnectionService.getProjectDb().getCollection('lore');
+      },
+
+      getCollectionCount: function() {
+        return this.getCollection().count();
+      },
+
       insert: function(lore) {
         CollectionUtilService.insert(this.getCollection(), lore);
       },
+
+      move: function(sourceId, targetId) {
+        return CollectionUtilService.move(this.getCollection(), sourceId, targetId, this.getDynamicView());
+      },
+
       update: function(loreItem) {
         CollectionUtilService.update(this.getCollection(), loreItem);
       }
