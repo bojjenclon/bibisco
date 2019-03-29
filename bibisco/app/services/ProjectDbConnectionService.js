@@ -47,6 +47,28 @@ angular.module('bibiscoApp').service('ProjectDbConnectionService', function(
       var projectPath = this.calculateProjectPath(id);
       projectdb = this.getProjectDbConnection().load(id, projectPath);
       LoggerService.debug('Loaded ' + projectdb);
+      this.checkIntegrity();
+    },
+    checkIntegrity: function () {
+      LoggerService.debug('Checking integrity of ' + projectdb);
+
+      const collections = [
+        'strands',
+        'chapters',
+        'scenes',
+        'maincharacters',
+        'secondarycharacters',
+        'locations',
+        'objects',
+        'lore'
+      ];
+      collections.forEach((name) => {
+        if (!projectdb.getCollection(name)) {
+          projectdb.addCollection(name);
+        }
+      });
+
+      LoggerService.debug('Intregity check passed for ' + projectdb);
     },
     open: function(dbName, dbPath) {
       return this.getProjectDbConnection().load(dbName, dbPath);

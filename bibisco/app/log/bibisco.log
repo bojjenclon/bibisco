@@ -1726,3 +1726,171 @@ the module (for instance, using `npm rebuild` or `npm install`).
 2019-03-28 21:43:26:983 DEBUG Loaded all_lore dynamicView
 2019-03-28 21:43:26:984 DEBUG Loaded all_objects dynamicView
 2019-03-28 21:43:26:984 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:02:42:267 DEBUG Running in development -  global path:/media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:02:43:105 DEBUG bibisco db path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app/db/bibisco.json
+2019-03-28 22:02:43:108 DEBUG bibisco.json db loaded
+2019-03-28 22:02:44:304 DEBUG storedLocale = [en-us]
+2019-03-28 22:02:44:308 INFO *** Application path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:02:44:308 INFO *** Bibisco version: 2.0.3-SE
+2019-03-28 22:02:44:308 INFO *** First access: false
+2019-03-28 22:02:44:308 INFO *** Actual user: cornell
+2019-03-28 22:02:44:308 INFO *** Signers: cornell
+2019-03-28 22:02:44:309 INFO *** Locale: en-us
+2019-03-28 22:02:44:309 INFO *** OS: linux
+2019-03-28 22:02:44:310 INFO *** Projects directory: /media/cornell/Storage/_internal_bibisco2_projects_db_
+2019-03-28 22:02:44:311 INFO *** Projects directory exists: false
+2019-03-28 22:02:44:311 ERROR *** Projects directory NOT EXISTS, so I clean bibisco db: restart from welcome page!
+2019-03-28 22:02:54:572 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:02:54:572 INFO -----------------------------------
+2019-03-28 22:02:54:572 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:02:54:573 INFO initProjectDbConnection()
+2019-03-28 22:02:54:573 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:02:54:574 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-28 22:02:54:574 INFO Delete previous backup: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_21_57_30.bibisco2 done
+2019-03-28 22:02:54:605 DEBUG Remote zipFolder start: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:02:54:608 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-28 22:02:54:610 DEBUG Remote zipFolder end
+2019-03-28 22:02:54:610 INFO projectsInBibiscoDb=db7f2253-18d9-4faa-8aa9-39aa6e0209fd
+2019-03-28 22:02:54:610 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:02:54:610 INFO projectsToAdd=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:02:54:610 INFO projectsToDelete=db7f2253-18d9-4faa-8aa9-39aa6e0209fd
+2019-03-28 22:02:54:610 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:02:54:611 DEBUG Saved preferences: selectedLanguage=en-us - selectedProjectsDirectory=/media/cornell/Storage/Dropbox/bibisco
+2019-03-28 22:02:54:625 INFO /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_22_02_54.bibisco2 done!
+2019-03-28 22:02:54:626 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-28 22:02:57:169 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:02:57:170 DEBUG Loaded [object Object]
+2019-03-28 22:02:57:184 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:02:57:201 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:02:57:201 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:02:57:201 DEBUG Loaded all_maincharacters dynamicView
+2019-03-28 22:02:57:202 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-28 22:02:57:202 DEBUG Loaded all_locations dynamicView
+2019-03-28 22:02:57:202 DEBUG Loaded all_strands dynamicView
+2019-03-28 22:02:57:239 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:02:57:239 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:03:04:593 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-03-28 22:03:04:593 ERROR ***EXCEPTION STACKTRACE*** : TypeError: Cannot read property 'count' of null
+    at Object.executeInsert (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/services/CollectionUtilService.js:55:30)
+    at Object.insert (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/services/CollectionUtilService.js:41:22)
+    at Object.insert (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/services/LoreService.js:41:31)
+    at LoreTitleController.self.save (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/components/lore/lore-title.js:70:21)
+    at fn (eval at compile (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:242:306), <anonymous>:4:244)
+    at ElementTitleFormController.d.(anonymous function) [as savefunction] (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:88:245)
+    at ElementTitleFormController.self.save (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/components/common/uielements/element-title-form/element-title-form.js:43:12)
+    at fn (eval at compile (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:242:306), <anonymous>:4:326)
+    at e (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:288:66)
+    at m.$eval (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:151:69)
+2019-03-28 22:09:45:730 DEBUG Running in development -  global path:/media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:09:46:530 DEBUG bibisco db path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app/db/bibisco.json
+2019-03-28 22:09:46:533 DEBUG bibisco.json db loaded
+2019-03-28 22:09:47:723 DEBUG storedLocale = [en-us]
+2019-03-28 22:09:47:726 INFO *** Application path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:09:47:726 INFO *** Bibisco version: 2.0.3-SE
+2019-03-28 22:09:47:726 INFO *** First access: false
+2019-03-28 22:09:47:727 INFO *** Actual user: cornell
+2019-03-28 22:09:47:727 INFO *** Signers: cornell
+2019-03-28 22:09:47:727 INFO *** Locale: en-us
+2019-03-28 22:09:47:727 INFO *** OS: linux
+2019-03-28 22:09:47:728 INFO *** Projects directory: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_
+2019-03-28 22:09:47:729 INFO *** Projects directory exists: true
+2019-03-28 22:09:47:729 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:09:47:729 INFO -----------------------------------
+2019-03-28 22:09:47:729 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:09:47:729 INFO initProjectDbConnection()
+2019-03-28 22:09:47:729 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:09:47:729 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-28 22:09:47:730 INFO Delete previous backup: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_22_02_54.bibisco2 done
+2019-03-28 22:09:47:758 DEBUG Remote zipFolder start: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:09:47:761 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-28 22:09:47:762 DEBUG Remote zipFolder end
+2019-03-28 22:09:47:763 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:09:47:763 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:09:47:765 INFO projectsToAdd=
+2019-03-28 22:09:47:766 INFO projectsToDelete=
+2019-03-28 22:09:47:766 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:09:47:771 INFO /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_22_09_47.bibisco2 done!
+2019-03-28 22:09:47:772 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-28 22:09:49:774 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:09:49:775 DEBUG Loaded [object Object]
+2019-03-28 22:09:49:776 DEBUG Checking integrity of [object Object]
+2019-03-28 22:09:49:776 DEBUG Intregity check passed for [object Object]
+2019-03-28 22:09:49:790 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:09:49:807 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:49:808 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:09:49:808 DEBUG Loaded all_maincharacters dynamicView
+2019-03-28 22:09:49:808 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-28 22:09:49:809 DEBUG Loaded all_locations dynamicView
+2019-03-28 22:09:49:809 DEBUG Loaded all_strands dynamicView
+2019-03-28 22:09:49:850 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:49:850 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:55:223 INFO Insert element with $loki=1 in lore
+2019-03-28 22:09:55:229 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:55:229 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:09:55:230 DEBUG Loaded all_maincharacters dynamicView
+2019-03-28 22:09:55:230 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-28 22:09:55:230 DEBUG Loaded all_locations dynamicView
+2019-03-28 22:09:55:230 DEBUG Loaded all_strands dynamicView
+2019-03-28 22:09:55:235 DEBUG Created all_lore dynamicView
+2019-03-28 22:09:55:241 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:55:241 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:56:462 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:09:56:462 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:11:45:326 DEBUG Running in development -  global path:/media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:11:46:105 DEBUG bibisco db path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app/db/bibisco.json
+2019-03-28 22:11:46:107 DEBUG bibisco.json db loaded
+2019-03-28 22:11:47:298 DEBUG storedLocale = [en-us]
+2019-03-28 22:11:47:314 INFO *** Application path: /media/cornell/Storage/Code/OSS/bibisco/bibisco/app
+2019-03-28 22:11:47:315 INFO *** Bibisco version: 2.0.3-SE
+2019-03-28 22:11:47:315 INFO *** First access: false
+2019-03-28 22:11:47:316 INFO *** Actual user: cornell
+2019-03-28 22:11:47:316 INFO *** Signers: cornell
+2019-03-28 22:11:47:316 INFO *** Locale: en-us
+2019-03-28 22:11:47:316 INFO *** OS: linux
+2019-03-28 22:11:47:319 INFO *** Projects directory: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_
+2019-03-28 22:11:47:319 INFO *** Projects directory exists: true
+2019-03-28 22:11:47:320 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:11:47:320 INFO -----------------------------------
+2019-03-28 22:11:47:320 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:11:47:321 INFO initProjectDbConnection()
+2019-03-28 22:11:47:321 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:11:47:321 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-28 22:11:47:322 INFO Delete previous backup: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_22_09_47.bibisco2 done
+2019-03-28 22:11:47:355 DEBUG Remote zipFolder start: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:11:47:357 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-28 22:11:47:359 DEBUG Remote zipFolder end
+2019-03-28 22:11:47:359 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:11:47:359 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:11:47:359 INFO projectsToAdd=
+2019-03-28 22:11:47:359 INFO projectsToDelete=
+2019-03-28 22:11:47:360 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-28 22:11:47:367 INFO /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/backup/futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_28_22_11_47.bibisco2 done!
+2019-03-28 22:11:47:368 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-28 22:11:50:199 INFO Database /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_/8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-28 22:11:50:199 DEBUG Loaded [object Object]
+2019-03-28 22:11:50:200 DEBUG Checking integrity of [object Object]
+2019-03-28 22:11:50:201 DEBUG Intregity check passed for [object Object]
+2019-03-28 22:11:50:238 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-28 22:11:50:267 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:11:50:267 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:11:50:267 DEBUG Loaded all_maincharacters dynamicView
+2019-03-28 22:11:50:267 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-28 22:11:50:268 DEBUG Loaded all_locations dynamicView
+2019-03-28 22:11:50:268 DEBUG Loaded all_strands dynamicView
+2019-03-28 22:11:50:303 DEBUG Created all_lore dynamicView
+2019-03-28 22:11:50:307 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:11:50:307 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:11:57:294 DEBUG Loaded all_chapters dynamicView
+2019-03-28 22:11:57:294 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-28 22:12:02:870 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-03-28 22:12:02:871 ERROR ***EXCEPTION STACKTRACE*** : TypeError: Cannot read property 'name' of null
+    at ItemDetailController.self.$onInit (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/components/objects/object-detail.js:37:25)
+    at file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:70:219
+    at r (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:8:101)
+    at p (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:70:84)
+    at file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:81:234
+    at file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:137:167
+    at m.$digest (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:148:130)
+    at m.$apply (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:151:355)
+    at l (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:103:167)
+    at t (file:///media/cornell/Storage/Code/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:108:228)

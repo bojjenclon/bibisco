@@ -23,8 +23,7 @@ angular.module('bibiscoApp').service('LoreService', function(
         return this.getCollection().get(id);
       },
       getCollection: function() {
-        return ProjectDbConnectionService.getProjectDb().getCollection(
-          'lore');
+        return ProjectDbConnectionService.getProjectDb().getCollection('lore');
       },
       getCollectionCount: function() {
         return this.getCollection().count();
