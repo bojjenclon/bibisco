@@ -842,7 +842,7 @@ h3 {
     }
     .navbar-collapse.collapse {
         display: none!important;
-				max-height: 380px;
+		max-height: 420px;
     }
     .navbar-nav {
         float: none!important;
