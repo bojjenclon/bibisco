@@ -228,6 +228,10 @@ h6, label, th, td, p {
 	margin-bottom: 5px;
 }
 
+.breadcrumb a {
+	cursor: pointer;
+}
+
 /* BLOCKQUOTE */
 blockquote {
 	padding: 5px 15px;
