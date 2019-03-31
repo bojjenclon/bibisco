@@ -32,8 +32,7 @@ function LoreTitleController($location, $routeParams, LoreService) {
     });
 
     if ($routeParams.id !== undefined) {
-      let lore = LoreService.getCollection(
-        $routeParams.id);
+      let lore = LoreService.getLoreItem($routeParams.id);
 
       // edit breadcrumb objects
       self.breadcrumbItems.push({
@@ -43,7 +42,7 @@ function LoreTitleController($location, $routeParams, LoreService) {
         label: 'lore_change_name_title'
       });
 
-      self.exitpath = '/objects/' + $routeParams.id;
+      self.exitpath = '/lore/' + $routeParams.id;
       self.name = lore.name;
       self.pageheadertitle =
         'lore_change_name_title';
