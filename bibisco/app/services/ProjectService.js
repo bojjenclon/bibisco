@@ -441,10 +441,7 @@ function checkProjectValidity(projectDirectoryName, projectsDirectory,
   }
 
   // open imported archive db to get id and name
-  let projectdb = ProjectDbConnectionService.open(
-    projectDirectoryName,
-    FileSystemService.concatPath(projectsDirectory,
-      projectDirectoryName));
+  let projectdb = ProjectDbConnectionService.open(projectDirectoryName, FileSystemService.concatPath(projectsDirectory, projectDirectoryName));
   let projectInfo = projectdb.getCollection('project').get(1);
 
   // check if projects directory name is equals to project id

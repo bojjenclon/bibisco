@@ -47,8 +47,7 @@ function MainController($injector, $location, $timeout) {
   
     // Log installation information
     LoggerService.info('*** Application path: ' + ContextService.getAppPath());
-    LoggerService.info('*** Bibisco version: ' + BibiscoPropertiesService.getProperty(
-      'version'));
+    LoggerService.info('*** Bibisco version: ' + BibiscoPropertiesService.getProperty('version'));
     LoggerService.info('*** First access: ' + firstAccess);
     LoggerService.info('*** Actual user: ' + actualUser);
     LoggerService.info('*** Signers: ' + signers);

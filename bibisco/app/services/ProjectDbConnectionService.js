@@ -15,7 +15,7 @@
 
 angular.module('bibiscoApp').service('ProjectDbConnectionService', function(
   BibiscoPropertiesService, ContextService, FileSystemService,
-  LoggerService) {
+  CollectionIntegrityService, LoggerService) {
   'use strict';
   let fs = require('fs-extra');
   let loki = require('lokijs');
@@ -44,34 +44,21 @@ angular.module('bibiscoApp').service('ProjectDbConnectionService', function(
       return projectdbconnection;
     },
     load: function(id) {
-      var projectPath = this.calculateProjectPath(id);
+      const projectPath = this.calculateProjectPath(id);
       projectdb = this.getProjectDbConnection().load(id, projectPath);
       LoggerService.debug('Loaded ' + projectdb);
+      const curVersion = BibiscoPropertiesService.getProperty('version'),
+        projectInfo = projectdb.getCollection('project').get(1);
       
-      if (BibiscoPropertiesService.getProperty('version') !== projectdb.getCollection('project').bibiscoVersion) {
-        this.checkCollections();
+      if (curVersion !== projectInfo.bibiscoVersion) {
+        CollectionIntegrityService.checkCollections(projectdb, curVersion, projectInfo.bibiscoVersion);
+
+        // Update the project info to the current bibisco version
+        projectInfo.bibiscoVersion = curVersion;
+
+        // Persist the version change
+        this.saveDatabase();
       }
-    },
-    checkCollections: function () {
-      LoggerService.debug('Checking collections of ' + projectdb);
-
-      const collections = [
-        'strands',
-        'chapters',
-        'scenes',
-        'maincharacters',
-        'secondarycharacters',
-        'locations',
-        'objects',
-        'lore'
-      ];
-      collections.forEach((name) => {
-        if (!projectdb.getCollection(name)) {
-          projectdb.addCollection(name);
-        }
-      });
-
-      LoggerService.debug('Collection check passed for ' + projectdb);
     },
     open: function(dbName, dbPath) {
       return this.getProjectDbConnection().load(dbName, dbPath);

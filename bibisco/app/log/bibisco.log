@@ -1906,3 +1906,1156 @@ the module (for instance, using `npm rebuild` or `npm install`).
 2019-03-29 18:54:49:027 INFO *** Locale: en-us
 2019-03-29 18:54:49:028 INFO *** OS: win32
 2019-03-29 18:54:49:029 INFO *** Projects directory: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_
+2019-03-29 19:27:36:421 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:27:37:530 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-29 19:27:37:533 DEBUG bibisco.json db loaded
+2019-03-29 19:27:38:877 DEBUG storedLocale = [en-us]
+2019-03-29 19:27:38:882 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:27:38:883 INFO *** Bibisco version: 2.0.3-SE
+2019-03-29 19:27:38:883 INFO *** First access: false
+2019-03-29 19:27:38:884 INFO *** Actual user: Cornell
+2019-03-29 19:27:38:884 INFO *** Signers: cornell
+2019-03-29 19:27:38:884 INFO *** Locale: en-us
+2019-03-29 19:27:38:884 INFO *** OS: win32
+2019-03-29 19:27:38:884 INFO *** Projects directory: /media/cornell/Storage/Dropbox/bibisco/_internal_bibisco2_projects_db_
+2019-03-29 19:27:51:159 INFO *** Added Cornell to signers
+2019-03-29 19:27:51:166 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:27:51:167 INFO -----------------------------------
+2019-03-29 19:27:51:167 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:27:51:167 INFO initProjectDbConnection()
+2019-03-29 19:27:51:169 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:27:51:170 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-29 19:27:51:170 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_11_09.bibisco2 done
+2019-03-29 19:27:51:273 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:27:51:277 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-29 19:27:51:279 DEBUG Remote zipFolder end
+2019-03-29 19:27:51:280 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:27:51:280 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:27:51:280 INFO projectsToAdd=
+2019-03-29 19:27:51:280 INFO projectsToDelete=
+2019-03-29 19:27:51:281 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:27:51:281 DEBUG Saved preferences: selectedLanguage=en-us - selectedProjectsDirectory=D:\Dropbox\bibisco
+2019-03-29 19:27:51:310 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_27_51.bibisco2 done!
+2019-03-29 19:27:51:311 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-29 19:28:31:548 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:28:32:631 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-29 19:28:32:635 DEBUG bibisco.json db loaded
+2019-03-29 19:28:33:979 DEBUG storedLocale = [en-us]
+2019-03-29 19:28:33:986 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:28:33:987 INFO *** Bibisco version: 2.0.3-SE
+2019-03-29 19:28:33:988 INFO *** First access: false
+2019-03-29 19:28:33:988 INFO *** Actual user: Cornell
+2019-03-29 19:28:33:988 INFO *** Signers: cornell,Cornell
+2019-03-29 19:28:33:988 INFO *** Locale: en-us
+2019-03-29 19:28:33:988 INFO *** OS: win32
+2019-03-29 19:28:33:989 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-03-29 19:28:33:989 INFO *** Projects directory exists: true
+2019-03-29 19:28:33:990 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:28:33:990 INFO -----------------------------------
+2019-03-29 19:28:33:990 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:28:33:990 INFO initProjectDbConnection()
+2019-03-29 19:28:33:991 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:28:33:991 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-29 19:28:33:992 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_27_51.bibisco2 done
+2019-03-29 19:28:34:814 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:28:34:818 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-29 19:28:34:821 DEBUG Remote zipFolder end
+2019-03-29 19:28:34:845 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:28:34:846 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:28:34:846 INFO projectsToAdd=
+2019-03-29 19:28:34:846 INFO projectsToDelete=
+2019-03-29 19:28:34:846 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:28:34:860 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_28_33.bibisco2 done!
+2019-03-29 19:28:34:862 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-29 19:28:42:382 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:28:42:383 DEBUG Loaded [object Object]
+2019-03-29 19:28:42:383 DEBUG Checking integrity of [object Object]
+2019-03-29 19:28:42:383 DEBUG Intregity check passed for [object Object]
+2019-03-29 19:28:42:428 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:28:42:450 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:28:42:451 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-29 19:28:42:451 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:28:42:452 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-29 19:28:42:452 DEBUG Loaded all_locations dynamicView
+2019-03-29 19:28:42:453 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:28:42:514 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:28:42:532 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:28:42:537 DEBUG Loaded all_objects dynamicView
+2019-03-29 19:28:42:562 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:28:42:564 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:28:42:565 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:29:45:821 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:29:46:882 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-29 19:29:46:886 DEBUG bibisco.json db loaded
+2019-03-29 19:29:48:237 DEBUG storedLocale = [en-us]
+2019-03-29 19:29:48:242 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:29:48:242 INFO *** Bibisco version: 2.0.3-SE
+2019-03-29 19:29:48:243 INFO *** First access: false
+2019-03-29 19:29:48:243 INFO *** Actual user: Cornell
+2019-03-29 19:29:48:244 INFO *** Signers: cornell,Cornell
+2019-03-29 19:29:48:245 INFO *** Locale: en-us
+2019-03-29 19:29:48:245 INFO *** OS: win32
+2019-03-29 19:29:48:246 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-03-29 19:29:48:247 INFO *** Projects directory exists: true
+2019-03-29 19:29:48:247 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:29:48:247 INFO -----------------------------------
+2019-03-29 19:29:48:248 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:29:48:248 INFO initProjectDbConnection()
+2019-03-29 19:29:48:249 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:29:48:250 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-29 19:29:48:251 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_28_33.bibisco2 done
+2019-03-29 19:29:49:112 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:29:49:116 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-29 19:29:49:118 DEBUG Remote zipFolder end
+2019-03-29 19:29:49:119 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:29:49:119 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:29:49:119 INFO projectsToAdd=
+2019-03-29 19:29:49:120 INFO projectsToDelete=
+2019-03-29 19:29:49:120 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:29:49:141 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_29_48.bibisco2 done!
+2019-03-29 19:29:49:142 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-29 19:29:50:725 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:29:50:726 DEBUG Loaded [object Object]
+2019-03-29 19:29:50:726 DEBUG Checking integrity of [object Object]
+2019-03-29 19:29:50:726 DEBUG Intregity check passed for [object Object]
+2019-03-29 19:29:50:741 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:29:50:757 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:29:50:758 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-29 19:29:50:758 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:29:50:758 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-29 19:29:50:759 DEBUG Loaded all_locations dynamicView
+2019-03-29 19:29:50:759 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:29:50:805 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:29:50:809 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:29:50:812 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:29:50:820 DEBUG Loaded all_objects dynamicView
+2019-03-29 19:29:50:825 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:29:50:825 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:29:53:930 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:29:53:990 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:29:53:991 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-29 19:30:00:314 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:30:00:315 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-29 19:30:00:315 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:30:00:315 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-29 19:30:00:316 DEBUG Loaded all_locations dynamicView
+2019-03-29 19:30:00:316 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:30:00:316 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:30:00:317 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:30:00:317 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:30:00:318 DEBUG Loaded all_objects dynamicView
+2019-03-29 19:30:00:325 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:30:00:325 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:30:01:709 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:30:02:659 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:31:10:874 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:31:11:961 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-29 19:31:11:965 DEBUG bibisco.json db loaded
+2019-03-29 19:31:13:323 DEBUG storedLocale = [en-us]
+2019-03-29 19:31:13:328 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-29 19:31:13:329 INFO *** Bibisco version: 2.0.3-SE
+2019-03-29 19:31:13:329 INFO *** First access: false
+2019-03-29 19:31:13:330 INFO *** Actual user: Cornell
+2019-03-29 19:31:13:330 INFO *** Signers: cornell,Cornell
+2019-03-29 19:31:13:330 INFO *** Locale: en-us
+2019-03-29 19:31:13:330 INFO *** OS: win32
+2019-03-29 19:31:13:330 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-03-29 19:31:13:331 INFO *** Projects directory exists: true
+2019-03-29 19:31:13:331 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:31:13:332 INFO -----------------------------------
+2019-03-29 19:31:13:332 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:31:13:332 INFO initProjectDbConnection()
+2019-03-29 19:31:13:333 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:31:13:334 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-29 19:31:13:335 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_29_48.bibisco2 done
+2019-03-29 19:31:14:180 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:31:14:184 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-29 19:31:14:187 DEBUG Remote zipFolder end
+2019-03-29 19:31:14:188 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:31:14:189 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:31:14:189 INFO projectsToAdd=
+2019-03-29 19:31:14:189 INFO projectsToDelete=
+2019-03-29 19:31:14:189 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-29 19:31:14:210 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_29_19_31_13.bibisco2 done!
+2019-03-29 19:31:14:211 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-29 19:31:15:559 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-29 19:31:15:559 DEBUG Loaded [object Object]
+2019-03-29 19:31:15:559 DEBUG Checking integrity of [object Object]
+2019-03-29 19:31:15:560 DEBUG Intregity check passed for [object Object]
+2019-03-29 19:31:15:573 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-29 19:31:15:587 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:31:15:587 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-29 19:31:15:587 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:31:15:587 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-29 19:31:15:588 DEBUG Loaded all_locations dynamicView
+2019-03-29 19:31:15:589 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:31:15:623 DEBUG Loaded all_strands dynamicView
+2019-03-29 19:31:15:626 DEBUG Loaded all_maincharacters dynamicView
+2019-03-29 19:31:15:631 DEBUG Loaded all_objects dynamicView
+2019-03-29 19:31:15:632 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:31:15:633 DEBUG Loaded all_chapters dynamicView
+2019-03-29 19:31:15:678 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:31:19:623 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:31:19:633 INFO Moved element of collection lore with $loki=1 at position 1 to element with $loki=2 at position 2
+2019-03-29 19:31:19:633 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:31:20:426 DEBUG Loaded all_lore dynamicView
+2019-03-29 19:31:20:434 INFO Moved element of collection lore with $loki=1 at position 2 to element with $loki=2 at position 1
+2019-03-29 19:31:20:434 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:26:07:983 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-31 10:26:16:971 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-31 10:26:16:988 DEBUG bibisco.json db loaded
+2019-03-31 10:26:22:855 DEBUG storedLocale = [en-us]
+2019-03-31 10:26:23:458 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-31 10:26:23:459 INFO *** Bibisco version: 2.0.3-SE
+2019-03-31 10:26:23:459 INFO *** First access: false
+2019-03-31 10:26:23:459 INFO *** Actual user: Cornell
+2019-03-31 10:26:23:459 INFO *** Signers: cornell,Cornell
+2019-03-31 10:26:23:460 INFO *** Locale: en-us
+2019-03-31 10:26:23:460 INFO *** OS: win32
+2019-03-31 10:26:23:460 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-03-31 10:26:23:460 INFO *** Projects directory exists: true
+2019-03-31 10:26:23:460 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-31 10:26:23:473 INFO -----------------------------------
+2019-03-31 10:26:23:474 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:26:23:474 INFO initProjectDbConnection()
+2019-03-31 10:26:23:476 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-31 10:26:23:476 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-31 10:26:23:477 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_30_21_46_16.bibisco2 done
+2019-03-31 10:26:24:667 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:26:24:671 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-31 10:26:24:673 DEBUG Remote zipFolder end
+2019-03-31 10:26:24:675 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:26:24:675 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:26:24:675 INFO projectsToAdd=
+2019-03-31 10:26:24:676 INFO projectsToDelete=
+2019-03-31 10:26:24:676 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-31 10:26:24:728 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_31_10_26_23.bibisco2 done!
+2019-03-31 10:26:24:729 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-31 10:26:32:851 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-31 10:26:32:852 DEBUG Loaded [object Object]
+2019-03-31 10:26:32:852 DEBUG Checking integrity of [object Object]
+2019-03-31 10:26:32:852 DEBUG Intregity check passed for [object Object]
+2019-03-31 10:26:33:959 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:26:34:078 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:26:34:079 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:26:34:079 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:26:34:079 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-31 10:26:34:079 DEBUG Loaded all_locations dynamicView
+2019-03-31 10:26:34:080 DEBUG Loaded all_strands dynamicView
+2019-03-31 10:26:34:122 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:26:34:158 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:26:34:162 DEBUG Loaded all_objects dynamicView
+2019-03-31 10:26:34:256 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:26:34:256 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:26:38:603 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:26:38:603 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:27:49:869 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-03-31 10:27:50:932 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-03-31 10:27:50:936 DEBUG bibisco.json db loaded
+2019-03-31 10:27:52:270 DEBUG storedLocale = [en-us]
+2019-03-31 10:27:52:275 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-03-31 10:27:52:275 INFO *** Bibisco version: 2.0.3-SE
+2019-03-31 10:27:52:275 INFO *** First access: false
+2019-03-31 10:27:52:276 INFO *** Actual user: Cornell
+2019-03-31 10:27:52:276 INFO *** Signers: cornell,Cornell
+2019-03-31 10:27:52:276 INFO *** Locale: en-us
+2019-03-31 10:27:52:276 INFO *** OS: win32
+2019-03-31 10:27:52:276 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-03-31 10:27:52:276 INFO *** Projects directory exists: true
+2019-03-31 10:27:52:277 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-03-31 10:27:52:277 INFO -----------------------------------
+2019-03-31 10:27:52:277 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:27:52:277 INFO initProjectDbConnection()
+2019-03-31 10:27:52:278 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-31 10:27:52:278 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-03-31 10:27:52:280 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_31_10_26_23.bibisco2 done
+2019-03-31 10:27:53:108 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:27:53:112 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-03-31 10:27:53:114 DEBUG Remote zipFolder end
+2019-03-31 10:27:53:115 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:27:53:116 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:27:53:116 INFO projectsToAdd=
+2019-03-31 10:27:53:117 INFO projectsToDelete=
+2019-03-31 10:27:53:117 INFO End syncProjectDirectoryWithBibiscoDb
+2019-03-31 10:27:53:140 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_03_31_10_27_52.bibisco2 done!
+2019-03-31 10:27:53:141 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-03-31 10:27:54:665 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-03-31 10:27:54:665 DEBUG Loaded [object Object]
+2019-03-31 10:27:54:665 DEBUG Checking integrity of [object Object]
+2019-03-31 10:27:54:666 DEBUG Intregity check passed for [object Object]
+2019-03-31 10:27:54:683 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-03-31 10:27:54:702 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:27:54:702 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:27:54:702 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:27:54:702 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-31 10:27:54:703 DEBUG Loaded all_locations dynamicView
+2019-03-31 10:27:54:704 DEBUG Loaded all_strands dynamicView
+2019-03-31 10:27:54:744 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:27:54:747 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:27:54:754 DEBUG Loaded all_objects dynamicView
+2019-03-31 10:27:54:757 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:27:54:757 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:27:59:520 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:27:59:521 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:04:895 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:04:895 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:04:896 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:04:896 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-31 10:28:04:896 DEBUG Loaded all_locations dynamicView
+2019-03-31 10:28:04:896 DEBUG Loaded all_strands dynamicView
+2019-03-31 10:28:04:904 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:04:904 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:28:04:906 DEBUG Loaded all_objects dynamicView
+2019-03-31 10:28:04:907 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:04:908 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:05:687 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:05:687 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:06:748 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:06:748 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:06:748 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:06:749 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-31 10:28:06:750 DEBUG Loaded all_locations dynamicView
+2019-03-31 10:28:06:751 DEBUG Loaded all_strands dynamicView
+2019-03-31 10:28:06:760 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:06:762 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:28:06:763 DEBUG Loaded all_objects dynamicView
+2019-03-31 10:28:06:763 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:06:764 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:10:868 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:20:999 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:21:000 DEBUG Loaded chapterscenes_1 dynamicView
+2019-03-31 10:28:21:000 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:21:000 DEBUG Loaded all_secondarycharacters dynamicView
+2019-03-31 10:28:21:000 DEBUG Loaded all_locations dynamicView
+2019-03-31 10:28:21:000 DEBUG Loaded all_strands dynamicView
+2019-03-31 10:28:21:001 DEBUG Loaded all_maincharacters dynamicView
+2019-03-31 10:28:21:002 DEBUG Loaded all_lore dynamicView
+2019-03-31 10:28:21:002 DEBUG Loaded all_objects dynamicView
+2019-03-31 10:28:21:003 DEBUG Loaded all_chapters dynamicView
+2019-03-31 10:28:21:003 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:04:291 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:11:07:517 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:11:07:520 DEBUG bibisco.json db loaded
+2019-04-03 20:11:10:539 DEBUG storedLocale = [en-us]
+2019-04-03 20:11:10:547 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:11:10:547 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:11:10:548 INFO *** First access: false
+2019-04-03 20:11:10:548 INFO *** Actual user: Cornell
+2019-04-03 20:11:10:548 INFO *** Signers: cornell,Cornell
+2019-04-03 20:11:10:548 INFO *** Locale: en-us
+2019-04-03 20:11:10:549 INFO *** OS: win32
+2019-04-03 20:11:10:549 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:11:10:549 INFO *** Projects directory exists: true
+2019-04-03 20:11:10:549 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:11:10:553 INFO -----------------------------------
+2019-04-03 20:11:10:554 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:11:10:554 INFO initProjectDbConnection()
+2019-04-03 20:11:10:556 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:11:10:556 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:11:10:557 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_02_36.bibisco2 done
+2019-04-03 20:11:11:476 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:11:11:480 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:11:11:481 DEBUG Remote zipFolder end
+2019-04-03 20:11:11:482 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:11:11:482 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:11:11:482 INFO projectsToAdd=
+2019-04-03 20:11:11:483 INFO projectsToDelete=
+2019-04-03 20:11:11:483 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:11:11:515 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_11_10.bibisco2 done!
+2019-04-03 20:11:11:516 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:11:14:903 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:11:14:904 DEBUG Loaded [object Object]
+2019-04-03 20:11:14:904 DEBUG Checking integrity of [object Object]
+2019-04-03 20:11:14:904 DEBUG Intregity check passed for [object Object]
+2019-04-03 20:11:15:039 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:11:15:051 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:15:052 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:11:15:052 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:11:15:053 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:11:15:053 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:11:15:053 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:11:15:100 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:11:15:128 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:11:15:134 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:11:15:136 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:15:137 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:23:087 INFO Insert element with $loki=3 in objects
+2019-04-03 20:11:23:098 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:23:098 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:11:23:098 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:11:23:099 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:11:23:099 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:11:23:099 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:11:23:107 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:11:23:107 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:11:23:108 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:11:23:108 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:23:108 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:24:082 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:11:24:082 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:12:29:082 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:12:30:073 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:12:30:077 DEBUG bibisco.json db loaded
+2019-04-03 20:12:31:392 DEBUG storedLocale = [en-us]
+2019-04-03 20:12:31:396 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:12:31:396 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:12:31:397 INFO *** First access: false
+2019-04-03 20:12:31:397 INFO *** Actual user: Cornell
+2019-04-03 20:12:31:397 INFO *** Signers: cornell,Cornell
+2019-04-03 20:12:31:398 INFO *** Locale: en-us
+2019-04-03 20:12:31:398 INFO *** OS: win32
+2019-04-03 20:12:31:398 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:12:31:398 INFO *** Projects directory exists: true
+2019-04-03 20:12:31:399 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:12:31:399 INFO -----------------------------------
+2019-04-03 20:12:31:399 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:12:31:399 INFO initProjectDbConnection()
+2019-04-03 20:12:31:400 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:12:31:400 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:12:31:401 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_11_10.bibisco2 done
+2019-04-03 20:12:32:203 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:12:32:208 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:12:32:210 DEBUG Remote zipFolder end
+2019-04-03 20:12:32:210 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:12:32:211 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:12:32:211 INFO projectsToAdd=
+2019-04-03 20:12:32:211 INFO projectsToDelete=
+2019-04-03 20:12:32:211 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:12:32:228 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_12_31.bibisco2 done!
+2019-04-03 20:12:32:229 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:12:48:509 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:12:48:510 DEBUG Loaded [object Object]
+2019-04-03 20:12:48:510 DEBUG Checking integrity of [object Object]
+2019-04-03 20:12:48:510 DEBUG Intregity check passed for [object Object]
+2019-04-03 20:12:48:532 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:12:48:585 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:12:48:585 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:12:48:585 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:12:48:585 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:12:48:586 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:12:48:586 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:12:48:642 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:12:48:647 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:12:48:652 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:12:48:654 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:12:48:654 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:12:51:755 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:12:51:756 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:13:04:238 INFO Removed element with $loki=3 from objects
+2019-04-03 20:13:04:251 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:13:04:251 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:13:04:251 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:13:04:252 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:13:04:252 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:13:04:252 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:13:04:261 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:13:04:263 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:13:04:265 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:13:04:266 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:13:04:266 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:17:34:656 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:17:35:846 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:17:35:850 DEBUG bibisco.json db loaded
+2019-04-03 20:17:37:177 DEBUG storedLocale = [en-us]
+2019-04-03 20:17:37:182 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:17:37:182 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:17:37:182 INFO *** First access: false
+2019-04-03 20:17:37:182 INFO *** Actual user: Cornell
+2019-04-03 20:17:37:183 INFO *** Signers: cornell,Cornell
+2019-04-03 20:17:37:183 INFO *** Locale: en-us
+2019-04-03 20:17:37:183 INFO *** OS: win32
+2019-04-03 20:17:37:183 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:17:37:184 INFO *** Projects directory exists: true
+2019-04-03 20:17:37:184 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:17:37:184 INFO -----------------------------------
+2019-04-03 20:17:37:184 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:17:37:184 INFO initProjectDbConnection()
+2019-04-03 20:17:37:185 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:17:37:186 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:17:37:186 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_12_31.bibisco2 done
+2019-04-03 20:17:38:013 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:17:38:017 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:17:38:019 DEBUG Remote zipFolder end
+2019-04-03 20:17:38:020 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:17:38:020 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:17:38:020 INFO projectsToAdd=
+2019-04-03 20:17:38:021 INFO projectsToDelete=
+2019-04-03 20:17:38:021 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:17:38:039 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_17_37.bibisco2 done!
+2019-04-03 20:17:38:040 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:17:40:117 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:17:40:118 DEBUG Loaded [object Object]
+2019-04-03 20:17:40:118 DEBUG Checking collections of [object Object]
+2019-04-03 20:17:40:118 DEBUG Collection check passed for [object Object]
+2019-04-03 20:17:40:131 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:17:40:145 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:17:40:145 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:17:40:145 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:17:40:145 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:17:40:146 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:17:40:146 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:17:40:180 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:17:40:183 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:17:40:188 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:17:40:190 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:17:40:191 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:21:656 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:29:22:656 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:29:22:659 DEBUG bibisco.json db loaded
+2019-04-03 20:29:23:975 DEBUG storedLocale = [en-us]
+2019-04-03 20:29:23:980 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:29:23:980 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:29:23:981 INFO *** First access: false
+2019-04-03 20:29:23:981 INFO *** Actual user: Cornell
+2019-04-03 20:29:23:981 INFO *** Signers: cornell,Cornell
+2019-04-03 20:29:23:981 INFO *** Locale: en-us
+2019-04-03 20:29:23:982 INFO *** OS: win32
+2019-04-03 20:29:23:982 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:29:23:982 INFO *** Projects directory exists: true
+2019-04-03 20:29:23:982 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:29:23:982 INFO -----------------------------------
+2019-04-03 20:29:23:982 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:23:983 INFO initProjectDbConnection()
+2019-04-03 20:29:23:983 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:29:23:984 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:29:23:984 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_26_27.bibisco2 done
+2019-04-03 20:29:24:798 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:24:802 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:29:24:803 DEBUG Remote zipFolder end
+2019-04-03 20:29:24:804 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:24:804 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:24:805 INFO projectsToAdd=
+2019-04-03 20:29:24:805 INFO projectsToDelete=
+2019-04-03 20:29:24:805 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:29:24:819 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_29_23.bibisco2 done!
+2019-04-03 20:29:24:820 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:29:26:260 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:29:26:261 DEBUG Loaded [object Object]
+2019-04-03 20:29:26:261 DEBUG Checking collections of [object Object]
+2019-04-03 20:29:26:261 DEBUG Collection check passed for [object Object]
+2019-04-03 20:29:26:274 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:26:287 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:26:288 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:29:26:288 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:29:26:288 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:29:26:289 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:29:26:289 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:29:26:325 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:29:26:328 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:29:26:336 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:29:26:340 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:26:340 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:41:740 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:29:42:728 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:29:42:732 DEBUG bibisco.json db loaded
+2019-04-03 20:29:44:053 DEBUG storedLocale = [en-us]
+2019-04-03 20:29:44:057 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:29:44:058 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:29:44:058 INFO *** First access: false
+2019-04-03 20:29:44:058 INFO *** Actual user: Cornell
+2019-04-03 20:29:44:059 INFO *** Signers: cornell,Cornell
+2019-04-03 20:29:44:059 INFO *** Locale: en-us
+2019-04-03 20:29:44:059 INFO *** OS: win32
+2019-04-03 20:29:44:059 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:29:44:060 INFO *** Projects directory exists: true
+2019-04-03 20:29:44:060 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:29:44:060 INFO -----------------------------------
+2019-04-03 20:29:44:060 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:44:061 INFO initProjectDbConnection()
+2019-04-03 20:29:44:061 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:29:44:062 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:29:44:063 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_29_23.bibisco2 done
+2019-04-03 20:29:44:850 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:44:854 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:29:44:856 DEBUG Remote zipFolder end
+2019-04-03 20:29:44:856 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:44:856 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:44:857 INFO projectsToAdd=
+2019-04-03 20:29:44:857 INFO projectsToDelete=
+2019-04-03 20:29:44:857 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:29:44:872 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_29_44.bibisco2 done!
+2019-04-03 20:29:44:873 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:29:46:383 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:29:46:384 DEBUG Loaded [object Object]
+2019-04-03 20:29:46:398 DEBUG Checking collections of [object Object]
+2019-04-03 20:29:46:399 DEBUG Collection check passed for [object Object]
+2019-04-03 20:29:46:413 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:29:46:440 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:46:441 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:29:46:441 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:29:46:441 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:29:46:441 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:29:46:442 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:29:46:481 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:29:46:484 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:29:46:486 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:29:46:488 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:29:46:489 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:30:17:342 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:30:18:314 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:30:18:317 DEBUG bibisco.json db loaded
+2019-04-03 20:30:19:632 DEBUG storedLocale = [en-us]
+2019-04-03 20:30:19:637 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:30:19:637 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:30:19:637 INFO *** First access: false
+2019-04-03 20:30:19:637 INFO *** Actual user: Cornell
+2019-04-03 20:30:19:638 INFO *** Signers: cornell,Cornell
+2019-04-03 20:30:19:638 INFO *** Locale: en-us
+2019-04-03 20:30:19:638 INFO *** OS: win32
+2019-04-03 20:30:19:638 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:30:19:638 INFO *** Projects directory exists: true
+2019-04-03 20:30:19:638 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:30:19:639 INFO -----------------------------------
+2019-04-03 20:30:19:639 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:30:19:639 INFO initProjectDbConnection()
+2019-04-03 20:30:19:640 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:30:19:640 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:30:19:641 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_29_44.bibisco2 done
+2019-04-03 20:30:20:425 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:30:20:430 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:30:20:432 DEBUG Remote zipFolder end
+2019-04-03 20:30:20:433 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:30:20:433 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:30:20:434 INFO projectsToAdd=
+2019-04-03 20:30:20:435 INFO projectsToDelete=
+2019-04-03 20:30:20:435 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:30:20:463 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_30_19.bibisco2 done!
+2019-04-03 20:30:20:519 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:30:24:681 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:30:24:681 DEBUG Loaded [object Object]
+2019-04-03 20:30:24:705 DEBUG Checking collections of [object Object]
+2019-04-03 20:30:24:706 DEBUG Collection check passed for [object Object]
+2019-04-03 20:30:24:724 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:30:24:744 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:30:24:745 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:30:24:745 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:30:24:745 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:30:24:746 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:30:24:746 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:30:24:790 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:30:24:793 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:30:24:796 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:30:24:797 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:30:24:798 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:21:564 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:33:22:553 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:33:22:557 DEBUG bibisco.json db loaded
+2019-04-03 20:33:23:877 DEBUG storedLocale = [en-us]
+2019-04-03 20:33:23:881 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:33:23:882 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:33:23:882 INFO *** First access: false
+2019-04-03 20:33:23:882 INFO *** Actual user: Cornell
+2019-04-03 20:33:23:882 INFO *** Signers: cornell,Cornell
+2019-04-03 20:33:23:883 INFO *** Locale: en-us
+2019-04-03 20:33:23:883 INFO *** OS: win32
+2019-04-03 20:33:23:883 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:33:23:883 INFO *** Projects directory exists: true
+2019-04-03 20:33:23:883 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:33:23:883 INFO -----------------------------------
+2019-04-03 20:33:23:884 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:23:884 INFO initProjectDbConnection()
+2019-04-03 20:33:23:885 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:33:23:885 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:33:23:886 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_30_19.bibisco2 done
+2019-04-03 20:33:24:670 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:24:674 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:33:24:676 DEBUG Remote zipFolder end
+2019-04-03 20:33:24:676 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:24:676 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:24:677 INFO projectsToAdd=
+2019-04-03 20:33:24:677 INFO projectsToDelete=
+2019-04-03 20:33:24:677 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:33:24:692 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_33_23.bibisco2 done!
+2019-04-03 20:33:24:693 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:33:27:750 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:33:27:751 DEBUG Loaded [object Object]
+2019-04-03 20:33:27:751 DEBUG Checking collections of [object Object]
+2019-04-03 20:33:27:751 DEBUG Collection check passed for [object Object]
+2019-04-03 20:33:27:764 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:27:782 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:27:782 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:27:783 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:27:783 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:33:27:783 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:33:27:784 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:33:27:818 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:27:821 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:33:27:827 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:33:27:828 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:27:829 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:33:002 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:33:33:983 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:33:33:987 DEBUG bibisco.json db loaded
+2019-04-03 20:33:35:302 DEBUG storedLocale = [en-us]
+2019-04-03 20:33:35:307 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:33:35:307 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:33:35:307 INFO *** First access: false
+2019-04-03 20:33:35:307 INFO *** Actual user: Cornell
+2019-04-03 20:33:35:308 INFO *** Signers: cornell,Cornell
+2019-04-03 20:33:35:308 INFO *** Locale: en-us
+2019-04-03 20:33:35:308 INFO *** OS: win32
+2019-04-03 20:33:35:308 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:33:35:308 INFO *** Projects directory exists: true
+2019-04-03 20:33:35:308 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:33:35:309 INFO -----------------------------------
+2019-04-03 20:33:35:309 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:35:309 INFO initProjectDbConnection()
+2019-04-03 20:33:35:310 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:33:35:310 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:33:35:311 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_33_23.bibisco2 done
+2019-04-03 20:33:36:123 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:36:127 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:33:36:129 DEBUG Remote zipFolder end
+2019-04-03 20:33:36:130 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:36:130 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:36:130 INFO projectsToAdd=
+2019-04-03 20:33:36:130 INFO projectsToDelete=
+2019-04-03 20:33:36:130 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:33:36:147 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_33_35.bibisco2 done!
+2019-04-03 20:33:36:148 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:33:37:702 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:33:37:702 DEBUG Loaded [object Object]
+2019-04-03 20:33:37:702 DEBUG Checking collections of [object Object]
+2019-04-03 20:33:37:702 DEBUG Collection check passed for [object Object]
+2019-04-03 20:33:37:715 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:37:731 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:37:731 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:37:732 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:37:732 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:33:37:732 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:33:37:733 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:33:37:766 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:37:769 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:33:37:772 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:33:37:773 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:37:773 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:44:110 INFO Insert element with $loki=4 in objects
+2019-04-03 20:33:44:121 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:44:122 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:44:122 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:44:123 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:33:44:123 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:33:44:123 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:33:44:126 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:44:126 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:33:44:127 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:33:44:128 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:44:128 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:45:441 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:45:441 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:49:645 INFO Removed element with $loki=4 from objects
+2019-04-03 20:33:49:655 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:49:656 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:49:656 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:49:656 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:33:49:657 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:33:49:658 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:33:49:659 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:49:659 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:33:49:659 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:33:49:659 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:49:660 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:56:928 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:33:56:929 DEBUG Loaded [object Object]
+2019-04-03 20:33:56:929 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:33:56:934 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:56:934 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:33:56:934 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:56:934 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:33:56:934 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:33:56:935 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:33:56:935 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:33:56:936 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:33:56:936 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:33:56:937 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:33:56:937 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:34:03:578 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:34:04:562 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:34:04:565 DEBUG bibisco.json db loaded
+2019-04-03 20:34:05:879 DEBUG storedLocale = [en-us]
+2019-04-03 20:34:05:883 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:34:05:884 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:34:05:884 INFO *** First access: false
+2019-04-03 20:34:05:884 INFO *** Actual user: Cornell
+2019-04-03 20:34:05:884 INFO *** Signers: cornell,Cornell
+2019-04-03 20:34:05:884 INFO *** Locale: en-us
+2019-04-03 20:34:05:885 INFO *** OS: win32
+2019-04-03 20:34:05:885 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:34:05:885 INFO *** Projects directory exists: true
+2019-04-03 20:34:05:885 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:34:05:885 INFO -----------------------------------
+2019-04-03 20:34:05:885 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:05:886 INFO initProjectDbConnection()
+2019-04-03 20:34:05:887 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:34:05:887 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:34:05:888 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_33_35.bibisco2 done
+2019-04-03 20:34:06:661 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:06:666 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:34:06:667 DEBUG Remote zipFolder end
+2019-04-03 20:34:06:668 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:06:668 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:06:669 INFO projectsToAdd=
+2019-04-03 20:34:06:669 INFO projectsToDelete=
+2019-04-03 20:34:06:669 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:34:06:684 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_34_05.bibisco2 done!
+2019-04-03 20:34:06:684 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:34:08:440 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:34:08:440 DEBUG Loaded [object Object]
+2019-04-03 20:34:08:454 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:08:469 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:34:08:469 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:34:08:470 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:34:08:470 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:34:08:470 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:34:08:470 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:34:08:507 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:34:08:510 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:34:08:516 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:34:08:519 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:34:08:519 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:34:56:136 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:34:57:123 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:34:57:126 DEBUG bibisco.json db loaded
+2019-04-03 20:34:58:438 DEBUG storedLocale = [en-us]
+2019-04-03 20:34:58:442 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:34:58:442 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:34:58:442 INFO *** First access: false
+2019-04-03 20:34:58:442 INFO *** Actual user: Cornell
+2019-04-03 20:34:58:442 INFO *** Signers: cornell,Cornell
+2019-04-03 20:34:58:443 INFO *** Locale: en-us
+2019-04-03 20:34:58:443 INFO *** OS: win32
+2019-04-03 20:34:58:443 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:34:58:444 INFO *** Projects directory exists: true
+2019-04-03 20:34:58:444 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:34:58:444 INFO -----------------------------------
+2019-04-03 20:34:58:444 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:58:444 INFO initProjectDbConnection()
+2019-04-03 20:34:58:445 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:34:58:446 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:34:58:446 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_34_05.bibisco2 done
+2019-04-03 20:34:59:242 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:59:246 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:34:59:248 DEBUG Remote zipFolder end
+2019-04-03 20:34:59:249 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:59:249 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:34:59:249 INFO projectsToAdd=
+2019-04-03 20:34:59:249 INFO projectsToDelete=
+2019-04-03 20:34:59:250 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:34:59:268 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_34_58.bibisco2 done!
+2019-04-03 20:34:59:269 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:35:00:584 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:35:00:584 DEBUG Loaded [object Object]
+2019-04-03 20:35:00:597 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:35:00:610 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:35:00:610 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:35:00:611 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:35:00:611 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:35:00:611 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:35:00:611 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:35:00:645 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:35:00:654 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:35:00:659 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:35:00:661 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:35:00:661 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:47:24:918 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:47:25:891 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:47:25:895 DEBUG bibisco.json db loaded
+2019-04-03 20:47:27:218 DEBUG storedLocale = [en-us]
+2019-04-03 20:47:27:222 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:47:27:222 INFO *** Bibisco version: 2.0.3-SE
+2019-04-03 20:47:27:223 INFO *** First access: false
+2019-04-03 20:47:27:223 INFO *** Actual user: Cornell
+2019-04-03 20:47:27:223 INFO *** Signers: cornell,Cornell
+2019-04-03 20:47:27:223 INFO *** Locale: en-us
+2019-04-03 20:47:27:223 INFO *** OS: win32
+2019-04-03 20:47:27:224 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:47:27:224 INFO *** Projects directory exists: true
+2019-04-03 20:47:27:224 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:47:27:224 INFO -----------------------------------
+2019-04-03 20:47:27:225 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:47:27:225 INFO initProjectDbConnection()
+2019-04-03 20:47:27:226 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:47:27:226 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:47:27:226 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_34_58.bibisco2 done
+2019-04-03 20:47:28:024 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:47:28:029 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:47:28:031 DEBUG Remote zipFolder end
+2019-04-03 20:47:28:031 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:47:28:032 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:47:28:032 INFO projectsToAdd=
+2019-04-03 20:47:28:032 INFO projectsToDelete=
+2019-04-03 20:47:28:033 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:47:28:050 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_47_27.bibisco2 done!
+2019-04-03 20:47:28:051 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:49:42:708 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:49:43:743 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:49:43:752 DEBUG bibisco.json db loaded
+2019-04-03 20:49:45:090 DEBUG storedLocale = [en-us]
+2019-04-03 20:49:45:094 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:49:45:094 INFO *** Bibisco version: 2.0.4-SE
+2019-04-03 20:49:45:094 INFO *** First access: false
+2019-04-03 20:49:45:095 INFO *** Actual user: Cornell
+2019-04-03 20:49:45:095 INFO *** Signers: cornell,Cornell
+2019-04-03 20:49:45:095 INFO *** Locale: en-us
+2019-04-03 20:49:45:095 INFO *** OS: win32
+2019-04-03 20:49:45:095 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:49:45:096 INFO *** Projects directory exists: true
+2019-04-03 20:49:45:096 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:49:45:096 INFO -----------------------------------
+2019-04-03 20:49:45:096 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:45:096 INFO initProjectDbConnection()
+2019-04-03 20:49:45:098 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:49:45:098 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:49:45:099 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_47_27.bibisco2 done
+2019-04-03 20:49:45:893 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:45:898 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:49:45:899 DEBUG Remote zipFolder end
+2019-04-03 20:49:45:900 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:45:901 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:45:901 INFO projectsToAdd=
+2019-04-03 20:49:45:901 INFO projectsToDelete=
+2019-04-03 20:49:45:902 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:49:45:917 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_49_45.bibisco2 done!
+2019-04-03 20:49:45:918 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:49:49:886 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:49:49:886 DEBUG Loaded [object Object]
+2019-04-03 20:49:49:886 DEBUG Checking collections of [object Object]
+2019-04-03 20:49:49:886 DEBUG Collection check passed for [object Object]
+2019-04-03 20:49:49:907 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:49:925 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:49:49:925 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:49:49:926 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:49:49:926 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:49:49:927 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:49:49:927 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:49:49:977 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:49:49:978 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:49:49:983 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:49:49:984 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:49:49:985 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:49:58:688 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:49:58:689 DEBUG Loaded [object Object]
+2019-04-03 20:49:58:689 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:49:58:693 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:49:58:693 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:49:58:693 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:49:58:694 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 20:49:58:694 DEBUG Loaded all_locations dynamicView
+2019-04-03 20:49:58:694 DEBUG Loaded all_strands dynamicView
+2019-04-03 20:49:58:695 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 20:49:58:695 DEBUG Loaded all_lore dynamicView
+2019-04-03 20:49:58:697 DEBUG Loaded all_objects dynamicView
+2019-04-03 20:49:58:697 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:49:58:697 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:50:03:937 DEBUG Loaded all_chapters dynamicView
+2019-04-03 20:50:03:937 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 20:56:46:601 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:56:47:597 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:56:47:601 DEBUG bibisco.json db loaded
+2019-04-03 20:56:48:918 DEBUG storedLocale = [en-us]
+2019-04-03 20:56:48:923 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:56:48:923 INFO *** Bibisco version: 2.0.4-SE
+2019-04-03 20:56:48:923 INFO *** First access: false
+2019-04-03 20:56:48:923 INFO *** Actual user: Cornell
+2019-04-03 20:56:48:923 INFO *** Signers: cornell,Cornell
+2019-04-03 20:56:48:924 INFO *** Locale: en-us
+2019-04-03 20:56:48:924 INFO *** OS: win32
+2019-04-03 20:56:48:924 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 20:56:48:924 INFO *** Projects directory exists: true
+2019-04-03 20:56:48:924 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:56:48:924 INFO -----------------------------------
+2019-04-03 20:56:48:925 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:56:48:925 INFO initProjectDbConnection()
+2019-04-03 20:56:48:926 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 20:56:48:926 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 20:56:48:927 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_49_45.bibisco2 done
+2019-04-03 20:56:49:743 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:56:49:747 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 20:56:49:749 DEBUG Remote zipFolder end
+2019-04-03 20:56:49:749 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:56:49:749 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 20:56:49:750 INFO projectsToAdd=
+2019-04-03 20:56:49:750 INFO projectsToDelete=
+2019-04-03 20:56:49:750 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 20:56:49:768 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_56_48.bibisco2 done!
+2019-04-03 20:56:49:769 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 20:57:37:387 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 20:57:38:378 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 20:57:38:382 DEBUG bibisco.json db loaded
+2019-04-03 20:57:39:699 DEBUG storedLocale = [en-us]
+2019-04-03 20:57:39:702 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 20:57:39:702 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 20:57:39:702 ERROR ***EXCEPTION CAUSE*** : Possibly unhandled rejection: {}
+2019-04-03 20:57:39:703 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:00:39:786 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 21:00:40:779 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 21:00:40:782 DEBUG bibisco.json db loaded
+2019-04-03 21:00:42:101 DEBUG storedLocale = [en-us]
+2019-04-03 21:00:42:104 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 21:00:42:104 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:00:42:104 ERROR ***EXCEPTION CAUSE*** : Possibly unhandled rejection: {}
+2019-04-03 21:00:42:105 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:00:43:989 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 21:00:43:989 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:01:53:899 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 21:01:54:877 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 21:01:54:881 DEBUG bibisco.json db loaded
+2019-04-03 21:01:56:207 DEBUG storedLocale = [en-us]
+2019-04-03 21:01:56:209 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 21:01:56:210 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:01:56:210 ERROR ***EXCEPTION CAUSE*** : Possibly unhandled rejection: {}
+2019-04-03 21:01:56:211 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:01:59:098 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 21:01:59:098 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:04:07:054 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 21:04:08:059 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 21:04:08:062 DEBUG bibisco.json db loaded
+2019-04-03 21:04:09:389 DEBUG storedLocale = [en-us]
+2019-04-03 21:04:09:391 ERROR ***EXCEPTION CAUSE*** : undefined
+2019-04-03 21:04:09:392 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:04:09:393 ERROR ***EXCEPTION CAUSE*** : Possibly unhandled rejection: {}
+2019-04-03 21:04:09:394 ERROR ***EXCEPTION STACKTRACE*** : Error: [$injector:unpr] http://errors.angularjs.org/1.6.9/$injector/unpr?p0=CollectionIntegrityServiceProvider%20%3C-%20CollectionIntegrityService%20%3C-%20ProjectDbConnectionService%20%3C-%20CollectionUtilService%20%3C-%20ProjectService
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:7:76
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:64
+    at Object.d [as get] (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:46:126
+    at d (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:43:309)
+    at e (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:39)
+    at Object.instantiate (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:459)
+    at Object.<anonymous> (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:45:253)
+    at Object.invoke (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:44:390)
+    at Object.$get (file:///D:/Programming/OSS/bibisco/bibisco/app/node_modules/angular/angular.min.js:42:3)
+2019-04-03 21:06:26:724 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 21:06:27:708 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-03 21:06:27:711 DEBUG bibisco.json db loaded
+2019-04-03 21:06:29:029 DEBUG storedLocale = [en-us]
+2019-04-03 21:06:29:033 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-03 21:06:29:033 INFO *** Bibisco version: 2.0.4-SE
+2019-04-03 21:06:29:034 INFO *** First access: false
+2019-04-03 21:06:29:034 INFO *** Actual user: Cornell
+2019-04-03 21:06:29:035 INFO *** Signers: cornell,Cornell
+2019-04-03 21:06:29:036 INFO *** Locale: en-us
+2019-04-03 21:06:29:036 INFO *** OS: win32
+2019-04-03 21:06:29:036 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-03 21:06:29:036 INFO *** Projects directory exists: true
+2019-04-03 21:06:29:036 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-03 21:06:29:037 INFO -----------------------------------
+2019-04-03 21:06:29:037 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 21:06:29:037 INFO initProjectDbConnection()
+2019-04-03 21:06:29:038 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 21:06:29:039 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-03 21:06:29:039 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_20_56_48.bibisco2 done
+2019-04-03 21:06:29:809 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 21:06:29:813 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-03 21:06:29:815 DEBUG Remote zipFolder end
+2019-04-03 21:06:29:816 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 21:06:29:816 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 21:06:29:816 INFO projectsToAdd=
+2019-04-03 21:06:29:817 INFO projectsToDelete=
+2019-04-03 21:06:29:817 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-03 21:06:29:830 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_03_21_06_29.bibisco2 done!
+2019-04-03 21:06:29:831 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-03 21:06:33:540 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-03 21:06:33:541 DEBUG Loaded [object Object]
+2019-04-03 21:06:33:554 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-03 21:06:33:568 DEBUG Loaded all_chapters dynamicView
+2019-04-03 21:06:33:568 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-03 21:06:33:569 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 21:06:33:569 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-03 21:06:33:569 DEBUG Loaded all_locations dynamicView
+2019-04-03 21:06:33:569 DEBUG Loaded all_strands dynamicView
+2019-04-03 21:06:33:602 DEBUG Loaded all_maincharacters dynamicView
+2019-04-03 21:06:33:611 DEBUG Loaded all_lore dynamicView
+2019-04-03 21:06:33:616 DEBUG Loaded all_objects dynamicView
+2019-04-03 21:06:33:618 DEBUG Loaded all_chapters dynamicView
+2019-04-03 21:06:33:619 DEBUG Loaded all_chapters dynamicView
