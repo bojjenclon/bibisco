@@ -48,8 +48,7 @@ angular.module('bibiscoApp').service('ProjectService', function(
         id: projectId,
         name: name,
         language: language,
-        bibiscoVersion: BibiscoPropertiesService.getProperty(
-          'version'),
+        bibiscoVersion: BibiscoPropertiesService.getProperty('version'),
         lastScenetimeTag: ''
       });
 

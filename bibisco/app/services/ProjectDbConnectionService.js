@@ -47,10 +47,13 @@ angular.module('bibiscoApp').service('ProjectDbConnectionService', function(
       var projectPath = this.calculateProjectPath(id);
       projectdb = this.getProjectDbConnection().load(id, projectPath);
       LoggerService.debug('Loaded ' + projectdb);
-      this.checkIntegrity();
+      
+      if (BibiscoPropertiesService.getProperty('version') !== projectdb.getCollection('project').bibiscoVersion) {
+        this.checkCollections();
+      }
     },
-    checkIntegrity: function () {
-      LoggerService.debug('Checking integrity of ' + projectdb);
+    checkCollections: function () {
+      LoggerService.debug('Checking collections of ' + projectdb);
 
       const collections = [
         'strands',
@@ -68,7 +71,7 @@ angular.module('bibiscoApp').service('ProjectDbConnectionService', function(
         }
       });
 
-      LoggerService.debug('Intregity check passed for ' + projectdb);
+      LoggerService.debug('Collection check passed for ' + projectdb);
     },
     open: function(dbName, dbPath) {
       return this.getProjectDbConnection().load(dbName, dbPath);
