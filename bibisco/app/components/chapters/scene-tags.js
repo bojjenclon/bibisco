@@ -235,11 +235,10 @@ function SceneTagsController($location, $routeParams, $scope, $translate,
   self.initLore = function () {
 
     // lore
-    let lore = LoreService.getCollection();
+    let lore = LoreService.getLore();
     self.lore = [];
     for (let i = 0; i < lore.length; i++) {
-      let isselected = UtilService.array.contains(self.scenerevision.scenelore,
-        lore[i].$loki);
+      let isselected = UtilService.array.contains(self.scenerevision.scenelore, lore[i].$loki);
       self.lore.push({
         id: lore[i].$loki,
         name: lore[i].name,

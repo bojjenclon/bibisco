@@ -3059,3 +3059,56 @@ the module (for instance, using `npm rebuild` or `npm install`).
 2019-04-03 21:06:33:616 DEBUG Loaded all_objects dynamicView
 2019-04-03 21:06:33:618 DEBUG Loaded all_chapters dynamicView
 2019-04-03 21:06:33:619 DEBUG Loaded all_chapters dynamicView
+2019-04-04 16:50:07:114 DEBUG Running in development -  global path:D:\Programming\OSS\bibisco\bibisco\app
+2019-04-04 16:50:12:298 DEBUG bibisco db path: D:\Programming\OSS\bibisco\bibisco\app\db\bibisco.json
+2019-04-04 16:50:12:302 DEBUG bibisco.json db loaded
+2019-04-04 16:50:15:750 DEBUG storedLocale = [en-us]
+2019-04-04 16:50:15:764 INFO *** Application path: D:\Programming\OSS\bibisco\bibisco\app
+2019-04-04 16:50:15:765 INFO *** Bibisco version: 2.0.4-SE
+2019-04-04 16:50:15:765 INFO *** First access: false
+2019-04-04 16:50:15:765 INFO *** Actual user: Cornell
+2019-04-04 16:50:15:765 INFO *** Signers: cornell,Cornell
+2019-04-04 16:50:15:766 INFO *** Locale: en-us
+2019-04-04 16:50:15:766 INFO *** OS: win32
+2019-04-04 16:50:15:766 INFO *** Projects directory: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_
+2019-04-04 16:50:15:766 INFO *** Projects directory exists: true
+2019-04-04 16:50:15:767 INFO Start syncProjectDirectoryWithBibiscoDb
+2019-04-04 16:50:15:769 INFO -----------------------------------
+2019-04-04 16:50:15:770 INFO Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-04 16:50:15:770 INFO initProjectDbConnection()
+2019-04-04 16:50:15:773 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-04 16:50:15:773 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 is valid.
+2019-04-04 16:50:15:784 INFO Delete previous backup: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_04_15_44_59.bibisco2 done
+2019-04-04 16:50:16:475 DEBUG Remote zipFolder start: D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-04 16:50:16:480 DEBUG Processing 8d68dfa9-7e0c-44ab-830f-b92d130d7341.json
+2019-04-04 16:50:16:481 DEBUG Remote zipFolder end
+2019-04-04 16:50:16:482 INFO projectsInBibiscoDb=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-04 16:50:16:483 INFO projectsInProjectDirectories=8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-04 16:50:16:483 INFO projectsToAdd=
+2019-04-04 16:50:16:483 INFO projectsToDelete=
+2019-04-04 16:50:16:484 INFO End syncProjectDirectoryWithBibiscoDb
+2019-04-04 16:50:16:524 INFO D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\backup\futuristic_fantasy_8d68dfa9-7e0c-44ab-830f-b92d130d7341_2019_04_04_16_50_15.bibisco2 done!
+2019-04-04 16:50:16:525 INFO 8d68dfa9-7e0c-44ab-830f-b92d130d7341 backup done.
+2019-04-04 16:50:21:947 INFO Database D:\Dropbox\bibisco\_internal_bibisco2_projects_db_\8d68dfa9-7e0c-44ab-830f-b92d130d7341/8d68dfa9-7e0c-44ab-830f-b92d130d7341.json loaded!
+2019-04-04 16:50:21:947 DEBUG Loaded [object Object]
+2019-04-04 16:50:22:120 INFO Open project 8d68dfa9-7e0c-44ab-830f-b92d130d7341
+2019-04-04 16:50:22:135 DEBUG Loaded all_chapters dynamicView
+2019-04-04 16:50:22:135 DEBUG Loaded chapterscenes_2 dynamicView
+2019-04-04 16:50:22:135 DEBUG Loaded chapterscenes_1 dynamicView
+2019-04-04 16:50:22:136 DEBUG Loaded all_maincharacters dynamicView
+2019-04-04 16:50:22:136 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-04 16:50:22:137 DEBUG Loaded all_locations dynamicView
+2019-04-04 16:50:22:137 DEBUG Loaded all_strands dynamicView
+2019-04-04 16:50:22:187 DEBUG Loaded all_maincharacters dynamicView
+2019-04-04 16:50:22:189 DEBUG Loaded all_lore dynamicView
+2019-04-04 16:50:22:194 DEBUG Loaded all_objects dynamicView
+2019-04-04 16:50:22:197 DEBUG Loaded all_chapters dynamicView
+2019-04-04 16:50:22:197 DEBUG Loaded all_chapters dynamicView
+2019-04-04 16:50:26:714 DEBUG Loaded chapterscenes_2 dynamicView
+2019-04-04 16:50:29:032 DEBUG Loaded all_maincharacters dynamicView
+2019-04-04 16:50:29:033 DEBUG Loaded all_secondarycharacters dynamicView
+2019-04-04 16:50:29:033 DEBUG Loaded all_lore dynamicView
+2019-04-04 16:50:29:033 DEBUG Loaded all_locations dynamicView
+2019-04-04 16:50:29:034 DEBUG Loaded all_objects dynamicView
+2019-04-04 16:50:29:034 DEBUG Loaded all_strands dynamicView
+2019-04-04 16:50:36:337 DEBUG Loaded chapterscenes_2 dynamicView
