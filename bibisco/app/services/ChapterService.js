@@ -311,6 +311,20 @@ angular.module('bibiscoApp').service('ChapterService', function (CollectionUtilS
     },
 
     createSceneRevision: function(actualscenerevision) {
+      const defaultValues = {
+        characters: 0,
+        locationid: null,
+        povid: null,
+        povcharacterid: null,
+        scenelore: [],
+        scenecharacters: [],
+        sceneobjects: [],
+        scenestrands: [],
+        text: '',
+        time: null,
+        timegregorian: true,
+        words: 0
+      };
 
       let scenerevision;
 
@@ -321,6 +335,7 @@ angular.module('bibiscoApp').service('ChapterService', function (CollectionUtilS
           povid: actualscenerevision.povid,
           povcharacterid: actualscenerevision.povcharacterid,
           scenecharacters: actualscenerevision.scenecharacters,
+          scenelore: actualscenerevision.scenelore,
           sceneobjects: actualscenerevision.sceneobjects,
           scenestrands: actualscenerevision.scenestrands,
           text: actualscenerevision.text,
@@ -328,21 +343,12 @@ angular.module('bibiscoApp').service('ChapterService', function (CollectionUtilS
           timegregorian: actualscenerevision.timegregorian,
           words: actualscenerevision.words
         };
+      }
 
-      } else {
-        scenerevision = {
-          characters: 0,
-          locationid: null,
-          povid: null,
-          povcharacterid: null,
-          scenecharacters: [],
-          sceneobjects: [],
-          scenestrands: [],
-          text: '',
-          time: null,
-          timegregorian: true,
-          words: 0
-        };
+      for (let key in defaultValues) {
+        if (!scenerevision[key]) {
+          scenerevision[key] = defaultValues[key];
+        }
       }
 
       return scenerevision;
