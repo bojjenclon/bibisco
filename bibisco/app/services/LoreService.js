@@ -47,6 +47,10 @@ angular.module('bibiscoApp').service('LoreService', function(
         return CollectionUtilService.move(this.getCollection(), sourceId, targetId, this.getDynamicView());
       },
 
+      remove: function(id) {
+        CollectionUtilService.remove(this.getCollection(), id);
+      },
+
       update: function(loreItem) {
         CollectionUtilService.update(this.getCollection(), loreItem);
       }

@@ -19,29 +19,30 @@ angular.
     controller: LoreDetailController
   });
 
-function LoreDetailController($location, $routeParams, ChapterService, 
+function LoreDetailController($location, $rootScope, $routeParams, ChapterService, 
   LoreService, UtilService) {
 
   var self = this;
 
   self.$onInit = function() {
-
     self.lore = self.getLore($routeParams.id);
+    self.mode = $routeParams.mode;
+    let backpath = '/lore/params/focus=lore_' + self.lore.$loki;
 
     self.breadcrumbitems = [];
     self.breadcrumbitems.push({
       label: 'lore',
-      href: '/project/lore'
+      href: backpath
     });
     self.breadcrumbitems.push({
       label: self.lore.name
     });
-  
-    self.deleteforbidden = self.isDeleteForbidden();
-  };
 
-  self.back = function() {
-    $location.path('/project/lore');
+    self.deleteforbidden = self.isDeleteForbidden();
+    
+    if (self.mode === 'view') {
+      self.backpath = backpath;
+    }
   };
 
   self.changeStatus = function(status) {
@@ -55,7 +56,11 @@ function LoreDetailController($location, $routeParams, ChapterService,
 
   self.delete = function() {
     LoreService.remove(self.lore.$loki);
-    $location.path('/project/lore');
+    $location.path('/lore');
+  };
+
+  self.edit = function () {
+    $location.path('/lore/ ' + self.lore.$loki + '/edit');
   };
 
   self.getLore = function(id) {
@@ -76,7 +81,7 @@ function LoreDetailController($location, $routeParams, ChapterService,
       for (let j = 0; j < scenes.length && !deleteForbidden; j++) {
         let revisions = scenes[j].revisions;
         for (let h = 0; h < revisions.length && !deleteForbidden; h++) {
-          if (UtilService.array.contains(revisions[h].sceneobjects, id)) {
+          if (UtilService.array.contains(revisions[h].scenelore, id)) {
             deleteForbidden = true;
           }
         }

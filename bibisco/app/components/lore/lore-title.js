@@ -27,46 +27,52 @@ function LoreTitleController($location, $routeParams, LoreService) {
 
     // common bradcrumb root
     self.breadcrumbItems = [];
-    self.breadcrumbItems.push({
-      label: 'lore'
-    });
 
     if ($routeParams.id !== undefined) {
       let lore = LoreService.getLoreItem($routeParams.id);
 
+      self.breadcrumbItems.push({
+        label: 'lore',
+        href: '/lore/params/focus=lore_' + lore.$loki
+      });
+
       // edit breadcrumb objects
       self.breadcrumbItems.push({
-        label: lore.name
+        label: lore.name,
+        href: '/lore/' + lore.$loki + '/view'
       });
       self.breadcrumbItems.push({
         label: 'lore_change_name_title'
       });
 
-      self.exitpath = '/lore/' + $routeParams.id;
+      self.exitpath = '/lore/' + lore.$loki + '/view';
       self.name = lore.name;
-      self.pageheadertitle =
-        'lore_change_name_title';
+      self.pageheadertitle = 'lore_change_name_title';
+      
     } else {
+      self.breadcrumbItems.push({
+        label: 'lore',
+        href: '/lore'
+      });
 
       // create breadcrumb objects
       self.breadcrumbItems.push({
         label: 'lore_create_title'
       });
-      self.exitpath = '/project/lore';
+      self.exitpath = '/lore';
       self.name = null;
       self.pageheadertitle =
         'lore_create_title';
     }
   };
 
-  self.save = function(title) {
+  self.save = function (title) {
     if ($routeParams.id !== undefined) {
-      let lore = LoreService.getLoreItem(
-        $routeParams.id);
-        lore.name = title;
-        LoreService.update(lore);
+      let lore = LoreService.getLoreItem($routeParams.id);
+      lore.name = title;
+      LoreService.update(lore);
     } else {
-        LoreService.insert({
+      LoreService.insert({
         description: '',
         name: title
       });

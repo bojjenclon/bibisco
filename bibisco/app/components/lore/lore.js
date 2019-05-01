@@ -22,10 +22,25 @@ angular.
     }
   });
 
-function LoreController($injector, $location, $scope,
-  LoreService, SupporterEditionChecker) {
+function LoreController($injector, $location, $rootScope, $routeParams, $scope,
+  CardUtilService, LoreService, SupporterEditionChecker) {
 
   var self = this;
+  
+  self.$onInit = function() {
+    // show menu item
+    $rootScope.$emit('SHOW_PAGE', {
+      item: 'lore'
+    });
+
+    self.cardgriditems = self.getCardGridItems();
+
+    // focus element
+    CardUtilService.focusElementInPath($routeParams.params);
+
+    // hotkeys
+    self.hotkeys = ['ctrl+n', 'command+n'];
+  };
 
   self.itemsPresent = function() {
     return LoreService.getCollectionCount() > 0;
@@ -35,10 +50,6 @@ function LoreController($injector, $location, $scope,
     self.supporterEditionFilterAction(function () {
       $location.path('/lore/new');
     });
-  };
-
-  self.$onInit = function() {
-    self.cardgriditems = self.getCardGridItems();
   };
 
   self.getCardGridItems = function () {
@@ -67,7 +78,7 @@ function LoreController($injector, $location, $scope,
 
   self.select = function(id) {
     self.supporterEditionFilterAction(function() {
-      $location.path('/lore/' + id);
+      $location.path('/lore/' + id + '/view');
     });
   };
 
