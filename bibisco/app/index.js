@@ -135,7 +135,10 @@ function createMainWindow() {
     minWidth: 1024,
     minHeight: 620,
     icon: icon,
-    show: false
+    show: false,
+    webPreferences: {
+      nodeIntegration: true
+    }
   });
   win.loadURL(`file://${__dirname}/index.html`, {
     'extraHeaders': 'pragma: no-cache\n'
